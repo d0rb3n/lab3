@@ -165,7 +165,7 @@ movies = [
 ]
 def sublist(movies):
     new_list=[]
-    for x in range(0, len(movies)-1):
+    for x in range(0, len(movies)):
         if movies[x]["imdb"]>5.5:
             new_list.append(movies[x])  
     for x in new_list:
